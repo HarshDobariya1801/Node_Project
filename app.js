@@ -11,7 +11,7 @@ app.use(loggerMiddleware);
 
 // Sample route
 app.get('/', (req, res) => {
-    res.send('Hello, Middleware is working!');
+    res.send('Hello, Myself Harsh!');
 });
 
 app.listen(PORT, () => {
